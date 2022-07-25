@@ -8,7 +8,6 @@ import {
 import {
   loginHandler,
   signupHandler,
-  userProfilehandler,
 } from "./backend/controllers/AuthController";
 import {
   createHabitHandler,
@@ -54,7 +53,7 @@ export function makeServer({ environment = "development" } = {}) {
       this.post("/auth/login", loginHandler.bind(this));
 
       // user route (private)
-      this.get("/user" , userProfilehandler.bind(this))
+      // this.get("/user", userProfilehandler.bind(this));
 
       // habit routes (private)
       this.get("habits", getHabitsHandler.bind(this));
