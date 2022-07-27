@@ -1,11 +1,12 @@
 import React from "react";
 import { Header } from "../../Components/IndexAllComponents";
+import Sidebar from "../../Components/Sidebar/Sidebar";
 
 function Homepage() {
   return (
     <div>
       <Header />
-      <h2>Homepage </h2>
+      <Sidebar />
     </div>
   );
 }

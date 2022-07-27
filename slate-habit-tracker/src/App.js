@@ -5,6 +5,10 @@ import {
   Loginpage,
   Signuppage,
   Welcomepage,
+  Addhabitspage,
+  Settingspage,
+  Dashboardpage,
+  Managehabitspage,
 } from "./Pages/IndexAllPages";
 
 function App() {
@@ -15,6 +19,10 @@ function App() {
         <Route path="/Home" element={<Homepage />} />
         <Route path="/Login" element={<Loginpage />} />
         <Route path="/Signup" element={<Signuppage />} />
+        <Route path="/Addhabits" element={<Addhabitspage />} />
+        <Route path="/Settings" element={<Settingspage />} />
+        <Route path="/Dashboard" element={<Dashboardpage />} />
+        <Route path="/Managehabits" element={<Managehabitspage />} />
       </Routes>
     </div>
   );
