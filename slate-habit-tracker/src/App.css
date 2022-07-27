@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 body {
-  font-size: 2rem;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #efefef;
 }

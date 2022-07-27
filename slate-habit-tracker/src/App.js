@@ -1,7 +1,12 @@
 import "./App.css";
+import PublicRoutes from "./Routes/Public/PublicRoutes";
 
 function App() {
-  return <div>This is main branch</div>;
+  return (
+    <div>
+      <PublicRoutes />
+    </div>
+  );
 }
 
 export default App;
