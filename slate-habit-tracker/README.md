@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+## 🗂️ Features[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#%EF%B8%8F-features)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Must have (P0)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#must-have-p0)
 
-## Available Scripts
+- Add a habit
+- Edit/Update/Delete/Archive a habit
+- Pomodoro Feature
+- Calendar for every habit
+- Show Stats
+- Motivational Quotes
+- Authentication
+  - Sign-up
+  - Login
+  - Logout
 
-In the project directory, you can run:
+### Good to have (P1)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#good-to-have-p1)
 
-### `yarn start`
+- Create Area of Habits
+- Create your own challenge
+- Add Reminders
+- Habit Templates
+- Use ChartJS to showcase charts
+- Export data (to CSV or PDFs)
+- Gamification
+  - If you work on something or streak for a certain time interval, you will get points
+- Maintain Streaks feature
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Can contain (P2)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#can-contain-p2)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Can Integrate with APIs — [Fitbit](https://github.com/whazzmaster/fitgem), [Google Fit](https://developers.google.com/api-client-library/ruby/apis/fitness/v1), [Moves](https://dev.moves-app.com/docs/guide), [Runkeeper](https://runkeeper.com/developer/healthgraph/overview), [Strava](https://github.com/jaredholdcroft/strava-api-v3), [Withings](http://oauth.withings.com/api)
+  - A simple dashboard for Fitbit data
+- Add Friends
+  - share your goals
+- Document with notes
+- Track user mood
 
-### `yarn test`
+# 🐣 User Stories
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Must have (P0)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#must-have-p0-1)
 
-### `yarn build`
+1. Add a habit:
+   - I can see a "+" icon or a "Add a new habit" button which will open a dialog box kind of component with different text boxes for the details of the habit.
+   - These textboxes will ask for the details, like the Name of the habit, the Goal of the habits, How many times do you want to perform the habit & what would be the start and end date.
+2. Edit/Delete/Archive a habit
+   - Edit:
+     - I can see an "edit" option to edit the details of the habit that were entered earlier.
+   - Delete:
+     - I can see a "trash" icon or "delete" button to delete the habits.
+   - Archive:
+     - I can see an archive button that would archive a habit that wouldn't show up on the dashboard.
+3. Pomodoro Feature
+   - I can see a "Start" or "Stop" button to start and end the Pomodoro.
+4. Calendar for every habit
+   - I can see a calendar component for every habit added to the dashboard.
+5. Show Stats
+6. Motivational Quotes
+   - Every time I log in on to the dashboard, I can see generated random quotes.
+7. **Sign-up Page**
+   1. I can see a sign-up page from where I can sign-up using my **email, first name, last name, password** & **confirm password** .
+   2. I can see a **hide-show icon button** that shows or hides my password.
+8. **Login Page**
+   1. I can see a login page from where I can log in using my **email & password** .
+9. **Logout**
+   1. I can see a **logout button** from where I can log out from the app on the header navbar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Good to have (P1)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#good-to-have-p1-1)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Forget Password**
+  1. I can click on the " **Forget Password** " link it will ask me to share my email
+     1. Once I input my mail it sends me the mail containing the link to the "**Change Password"** page from where I can change the password.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Pointers to follow[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#-pointers-to-follow)
 
-### `yarn eject`
+## 🌋 Release Criteria (minimum)[#](https://neog-lms.vercel.app/docs/prds/habit-tracker-app#-release-criteria-minimum)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] **Functionalities**
+  - [ ] Authentication
+    - [ ] Users can sign-up for your app
+    - [ ] Users can log in to your app
+    - [ ] Users can logout from your app
+- [ ] **Documentation**
+  - [ ] Create a proper readme listing features
+  - [ ] gify or video of the app
+  - [ ] Instructions on how to run your app locally
