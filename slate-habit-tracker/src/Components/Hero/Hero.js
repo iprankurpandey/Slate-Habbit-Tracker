@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "../../Utils/SystemUtils";
+import { React, Link } from "../../Utils/SystemUtils";
 
 function Hero() {
   return (
