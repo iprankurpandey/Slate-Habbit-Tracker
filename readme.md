@@ -27,3 +27,4 @@
 - TailwindCSS
 - MockBee
 - React Hot Toast
+- TailBlocks
